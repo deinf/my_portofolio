@@ -6,7 +6,7 @@ import Skills from './components/skills/Skills';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Portfolio from './components/projects/Portfolio';
-
+import Contact from './components/contact/Contact';
 const App = () => {
   return (
     <>
@@ -19,7 +19,7 @@ const App = () => {
 
         <Portfolio />
      
-        {/* <Contact /> */}
+        <Contact />
       </main>
       <Footer />
       <ScrollUp />

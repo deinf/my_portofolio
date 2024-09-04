@@ -13,7 +13,7 @@ const Data = () => {
         <h3 className="home__subtitle">
         I'm 
         <Typewriter
-                words={[' a Software Developer', ' a Mobile Developer', ' an Innovative Thinker', ' a Problem Solver!']}
+                words={[' a Software Developer', ' a Mobile Developer', ' a Data Enthusiast', ' an Innovative Thinker', ' a Problem Solver!']}
                 loop={false}
                 cursor
                 cursorStyle='_'
@@ -24,7 +24,7 @@ const Data = () => {
          
         </h3>
         <p className="home__description">
-            Experienced Mobile and Software Developer: Crafting Innovative Solutions for Engaging and Scalable Applications
+          Experienced Software Developer & Data Enthusiast | Expert in Web, Mobile Development, and Data Engineering
         </p>
 
         <a href="#contact" className="button button--flex">
