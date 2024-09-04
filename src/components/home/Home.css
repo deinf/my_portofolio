@@ -1,5 +1,9 @@
+
+
+
 .home__container {
     row-gap: 7rem;
+    
 }
 
 .home__content {
@@ -25,7 +29,7 @@
 }
 
 .home__title {
-    font-size: var(--big-font-size);
+    font-size: var(--h1-font-size);
     margin-bottom: var(--mb-0-25);
 }
 
@@ -38,7 +42,7 @@
 .home__subtitle {
     position: relative;
     font-size: var(--h3-font-size);
-    padding-left: 5.4rem;
+    padding-left: 3.0rem;
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
 }
@@ -46,7 +50,7 @@
 .home__subtitle::before {
     content: '';
     position: absolute;
-    width: 70px;
+    width: 40px;
     height: 1px;
     background-color: var(--text-color);
     left: 0;
@@ -59,7 +63,7 @@
 }
 
 .home__img {
-    background: url(../../assets//profileBW.jpeg);
+    background: url(../../assets//profileBW.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -113,20 +117,31 @@
     color: var(--title-color);
 }
 
+.button-cv{
+    margin-left: 10px;
+}
+
 /* BREAK POINTS */
 @media screen and (max-width: 992px) {
+
+
+    .button-cv{
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .home {
+        height: 100vh;
+    }
+
     .home__content {
         grid-template-columns: 100px repeat(2, 1fr);
         column-gap: 1.25rem;
     }
 
-    .home__hand {
-        width: 26px;
-        height: 26px;
-    }
 
     .home__subtitle {
-        padding-left: 3.75rem;
+        padding-left: 3.0rem;
         margin-bottom: var(--mb-1);
     }
 
@@ -151,6 +166,10 @@
     }
 }
 @media screen and (max-width: 768px) {
+    .home {
+        height: 100vh;
+    }
+
     .home__content {
         grid-template-columns: 0.5fr 3fr;
         padding-top: 3.5rem;
@@ -158,14 +177,23 @@
 
     .home__img {
         order: initial;
-        justify-self: initial;
+     
         box-shadow: inset 0 0 0 6px rgb(225 225 225 / 30%);
         width: 200px;
         height: 200px;
+        
     }
 
     .home__data {
         grid-column: 1/3;
+        display : flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .home__description {
+        text-align: center;
     }
 
     .home__scroll {
@@ -178,8 +206,4 @@
         height: 180px;
     }
 
-    .home__hand {
-        width: 22px;
-        height: 22px;
-    }
 }

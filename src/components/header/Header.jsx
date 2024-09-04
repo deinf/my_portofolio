@@ -52,12 +52,12 @@ const Header = () => {
                                 <HiOutlineBadgeCheck className="nav__icon"/>Skills
                             </a>
                         </li>
-                        <li className="nav__item">
+                        {/* <li className="nav__item">
                             <a href="#services" onClick={() => setActiveNav("#services")} 
                             className={activeNav === "#services" ? "nav__link active-link" : "nav__link"}>
                                 <HiOutlineClipboardList className="nav__icon"/>Services
                             </a>
-                        </li>
+                        </li> */}
                         <li className="nav__item">
                             <a href="#portfolio" onClick={() => setActiveNav("#portfolio")} 
                             className={activeNav === "#portfolio" ? "nav__link active-link" : "nav__link"}>
