@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import { ContactWrapper, Email } from "./ContactElement";
 import { MdContentCopy } from "react-icons/md";
 import { IconButton, Tooltip } from "@mui/material";
 import Zoom from '@mui/material/Zoom';
-
+import { HiOutlineMail } from "react-icons/hi";
 
 import './Contact.css'
 
@@ -18,14 +17,14 @@ function Contact() {
   };
 
   return (
-    <ContactWrapper id="contact">
+    <section className="section" id="contact">
 
-      <div className="container">
-     
-       
-          <div className="card-container">
-            <Email>
+          <h2 className="section__title">Contact</h2>
+          <span className="section__subtitle">Get in touch</span>
+          <div className="container card-container">
+
               <div className="email-content" >
+              <HiOutlineMail />
                 <span>danangekasaputra@outlook.com</span>
                 <Tooltip
                   PopperProps={{
@@ -53,12 +52,12 @@ function Contact() {
               >
                 Send Email
               </a>
-            </Email>
+         
           </div>
       
 
-      </div>
-    </ContactWrapper>
+      
+    </section>
   );
 }
 
