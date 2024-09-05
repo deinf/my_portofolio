@@ -4,6 +4,9 @@ import { MdContentCopy } from "react-icons/md";
 import { IconButton, Tooltip } from "@mui/material";
 import Zoom from '@mui/material/Zoom';
 
+
+import './Contact.css'
+
 function Contact() {
   const [showTooltip, setShowTooltip] = useState(false);
   const copyToClipboard = () => {
@@ -17,12 +20,12 @@ function Contact() {
   return (
     <ContactWrapper id="contact">
 
-      <div className="Container">
+      <div className="container">
      
        
-          <div className="BigCard">
+          <div className="card-container">
             <Email>
-              <div style={{ display: 'flex', alignItems: 'center', columnGap: '20px', rowGap: '10px', flexWrap: 'wrap', justifyContent: 'center' }} >
+              <div className="email-content" >
                 <span>danangekasaputra@outlook.com</span>
                 <Tooltip
                   PopperProps={{
@@ -43,8 +46,8 @@ function Contact() {
                 </Tooltip>
               </div>
               <a
-                className="btn PrimaryBtn btn-shadow"
-                href="danangekasaputra@outlook.com"
+                className="button"
+                href="mailto:danangekasaputra@outlook.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
