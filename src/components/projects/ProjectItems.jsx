@@ -14,8 +14,9 @@ const ProjectItems = ({item}) => {
                 small={item.image}
                 large={item.image}
                 alt=""
-                />;
+                />
             <h3 className="project__title">{item.title}</h3>
+            {item.company != "" ? (<span className="project__company">{item.company}</span>) : (<></>)}
             <span className='project__deskripsi'>{item.deskripsi}</span>
             <div className='container_project_link'>
                 {item.playStoreUrl != "" ? (<a href={item.playStoreUrl} target="_blank"><img className='img__proj' src={Playstore_logo} /></a>) : (<></>)}
