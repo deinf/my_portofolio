@@ -24,7 +24,7 @@ const Data = () => {
          
         </h3>
         <p className="home__description">
-          Experienced Software Developer & Data Enthusiast | Expert in Web, Mobile Development, and Data Engineering
+          Experienced Software Developer & Data Enthusiast | Expert in Web, Mobile Development
         </p>
 
         <a href="#contact" className="button button--flex">
