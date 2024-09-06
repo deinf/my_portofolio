@@ -1,24 +1,22 @@
 import React, {useState} from "react";
 import './Header.css';
-import { HiOutlineHome, HiOutlineUser, HiOutlineBadgeCheck, HiOutlinePhotograph, HiOutlineMail, HiX, HiOutlineMenu } from "react-icons/hi";
+import { HiOutlineHome, HiOutlineUser,HiOutlineClipboardList, HiOutlineBadgeCheck, HiOutlinePhotograph, HiOutlineMail, HiX, HiOutlineMenu } from "react-icons/hi";
 
 
 const Header = () => {
 
-    const sections = document.querySelectorAll("section");
+    // const sections = document.querySelectorAll("section");
     window.addEventListener("scroll", function () {
-        let current = "";
-        sections.forEach((section) => {
+        // let current = "";
+        // sections.forEach((section) => {
           
-            const sectionTop = section.offsetTop;
-            const sectionHeight = section.clientHeight;
-            if (pageYOffset >= sectionTop - sectionHeight / 3) {
-              current = section.getAttribute("id");
-            
-
-            }
-          });
-          setActiveNav("#" + current)
+        //     const sectionTop = section.offsetTop;
+        //     const sectionHeight = section.clientHeight;
+        //     if (pageYOffset >= sectionTop - sectionHeight / 2.5) {
+        //       current = section.getAttribute("id");
+        //     }
+        //   });
+        //   setActiveNav("#" + current)
           
         const header = document.querySelector(".header");
         if(scrollY >= 80) header.classList.add("scroll-header");
@@ -52,16 +50,17 @@ const Header = () => {
                                 <HiOutlineBadgeCheck className="nav__icon"/>Skills
                             </a>
                         </li>
-                        {/* <li className="nav__item">
-                            <a href="#services" onClick={() => setActiveNav("#services")} 
-                            className={activeNav === "#services" ? "nav__link active-link" : "nav__link"}>
-                                <HiOutlineClipboardList className="nav__icon"/>Services
-                            </a>
-                        </li> */}
+                       
                         <li className="nav__item">
                             <a href="#portfolio" onClick={() => setActiveNav("#portfolio")} 
                             className={activeNav === "#portfolio" ? "nav__link active-link" : "nav__link"}>
                                 <HiOutlinePhotograph className="nav__icon"/>Projects
+                            </a>
+                        </li>
+                         <li className="nav__item">
+                            <a href="#publications" onClick={() => setActiveNav("#publications")} 
+                            className={activeNav === "#publications" ? "nav__link active-link" : "nav__link"}>
+                                <HiOutlineClipboardList className="nav__icon"/>Publications
                             </a>
                         </li>
                         <li className="nav__item">

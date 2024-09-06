@@ -7,6 +7,7 @@ import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Portfolio from './components/projects/Portfolio';
 import Contact from './components/contact/Contact';
+import Publications from './components/publications/publications';
 const App = () => {
   return (
     <>
@@ -18,7 +19,7 @@ const App = () => {
         {/* <Services /> */}
 
         <Portfolio />
-     
+        <Publications />
         <Contact />
       </main>
       <Footer />
