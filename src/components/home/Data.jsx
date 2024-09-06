@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter'
-import CV from "../../assets/Example-Cv.pdf";
+import CV from "../../assets/CV DANANG EKA SAPUTRA ENGLISH.pdf";
 
 const Data = () => {
   return (
@@ -24,7 +24,7 @@ const Data = () => {
          
         </h3>
         <p className="home__description">
-          Experienced Software Developer & Data Enthusiast | Expert in Web, Mobile Development
+          Experienced Software Developer & Data Enthusiast | Expert in Web and Mobile Development
         </p>
 
         <a href="#contact" className="button button--flex">
