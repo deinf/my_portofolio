@@ -1,12 +1,39 @@
 import Project1 from "../../assets/Project/Babyboom1.png";
 import Project2 from "../../assets/Project/Clublink1.png";
 import Project3 from "../../assets/Project/Sellon1.png";
+import Project4 from "../../assets/Project/modernweb.png";
+import Project5 from "../../assets/Project/portofolio.png";
 
 
 export const projectsData = [
-   
-    {
+   {
         id: 1,
+        image: Project4,
+        title: "Modern Landing Page",
+        company: "",
+        category: "Web",
+        deskripsi: "Landing Page Website made using React JS, Tailwind CSS and Vite",
+        playStoreUrl : "",
+        appleStoreUrl: "",
+        websiteUrl: "https://modern-landing-page-coral.vercel.app/",
+        githubUrl: "https://github.com/deinf/modern-landing-page"
+   
+    },
+    {
+        id: 2,
+        image: Project5,
+        title: "Portofolio",
+        company: "",
+        category: "Web",
+        deskripsi: "Portofolio Website made with React JS and Vite.",
+        playStoreUrl : "",
+        appleStoreUrl: "",
+        websiteUrl: "https://danangeka.vercel.app/",
+        githubUrl: "https://github.com/deinf/my_portofolio"
+   
+    },
+    {
+        id: 3,
         image: Project3,
         title: "SellOn - Community&BabyBoomToken",
         company: "SELLON PTE. LTD,",
@@ -18,7 +45,7 @@ export const projectsData = [
         githubUrl: ""
     },
     {
-        id: 2,
+        id: 4,
         image: Project1,
         title: "BabyBoom Empowering Parenthood",
         company: "SELLON PTE. LTD,",
@@ -30,7 +57,7 @@ export const projectsData = [
         githubUrl: ""
     },
     {
-        id: 3,
+        id: 5,
         image: Project2,
         title: "ClubLink",
         company: "SELLON PTE. LTD,",
@@ -42,6 +69,7 @@ export const projectsData = [
         githubUrl: ""
    
     },
+    
 ];
 
 export const projectsNav = [

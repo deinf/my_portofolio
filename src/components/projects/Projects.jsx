@@ -42,14 +42,14 @@ const Projects = () => {
             </div>
             
             <div className="project__container container grid">
-                {projects.slice(0,4).map((item) => {
+                {projects.slice(0,6).map((item) => {
                     return <ProjectItems item={item} key={item.id}/>
                 })}
             </div>
            <div>
            {
             //  target="_blank"
-               dataLenght >= 4 ? (  <a className="button button__projects" href="#portfolio">See More Projects</a>) :
+               dataLenght > 6 ? (  <a className="button button__projects" href="#portfolio">See More Projects</a>) :
                   (<div></div>)
                 
             }
