@@ -56,19 +56,19 @@ export const projectsData = [
         websiteUrl: "https://babyboomtoken.com/",
         githubUrl: ""
     },
-    {
-        id: 5,
-        image: Project2,
-        title: "ClubLink",
-        company: "SELLON PTE. LTD,",
-        category: "Mobile",
-        deskripsi: "Developed with Flutter, this application specializes in forging meaningful connections between clubs and their communities. It enhances engagement and creates valuable opportunities for growth, making it easier for clubs to build strong, active relationships with their members.",
-        playStoreUrl : "https://play.google.com/store/apps/details?id=com.club.global",
-        appleStoreUrl: "",
-        websiteUrl: "https://clublink.club/",
-        githubUrl: ""
+    // {
+    //     id: 5,
+    //     image: Project2,
+    //     title: "ClubLink",
+    //     company: "SELLON PTE. LTD,",
+    //     category: "Mobile",
+    //     deskripsi: "Developed with Flutter, this application specializes in forging meaningful connections between clubs and their communities. It enhances engagement and creates valuable opportunities for growth, making it easier for clubs to build strong, active relationships with their members.",
+    //     playStoreUrl : "https://play.google.com/store/apps/details?id=com.club.global",
+    //     appleStoreUrl: "",
+    //     websiteUrl: "https://clublink.club/",
+    //     githubUrl: ""
    
-    },
+    // },
     
 ];
 
@@ -83,6 +83,6 @@ export const projectsNav = [
         name: "Web",
     },
     {
-        name: "UI/UX",
+        name: "API",
     },
 ];

@@ -4,12 +4,12 @@
     align-items: center;
     column-gap: 0.75rem;
     margin-bottom: var(--mb-2);
+    cursor: pointer;
 }
 
 .project__item {
     color: var(--title-color);
     padding: 0.25rem 0.75rem;
-
     font-weight: var(--font-medium);
     border-radius: 0.5rem;
     text-transform: capitalize;
@@ -22,6 +22,11 @@
 }
 
 .project__item:hover {
+    background-color: var(--title-color);
+    color: var(--container-color);
+}
+
+.active_project{
     background-color: var(--title-color);
     color: var(--container-color);
 }

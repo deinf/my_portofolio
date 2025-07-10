@@ -14,8 +14,13 @@ const About = () => {
             <div className="about__data">
                 <Info />
                 <p className="about__description">
-                      I am a dedicated software developer with a Bachelor's degree in Computer Systems and nearly 3 years of hands-on experience, specializing in mobile and web development. I am enthusiastic about delving into new and challenging projects,
-                      particularly in web development and cross-platform mobile development. My approach combines strong analytical skills with creativity to build scalable, high-performance applications. In addition to my software development expertise, I am also a data enthusiast with a keen interest in data analysis, data mining, and data engineering. I am passionate about leveraging technology to address real-world challenges and uncover insights through data-driven solutions.
+                     Passionate and results-driven Software Developer with over three years of experience specializing in
+                      mobile and web development. Holds a Bachelor's Degree in Computer Systems (GPA: 3.85). Skilled
+                      in building scalable, high-performance applications using modern technologies such as Flutter, Java,
+                      Kotlin, React, and Laravel. Demonstrates strong analytical thinking, problem-solving abilities, and a
+                      keen eye for UI/UX. Known for effective collaboration with cross-functional teams and a continuous
+                      desire to learn and grow in the tech industry.
+
                 </p>
             </div>
         </div>
